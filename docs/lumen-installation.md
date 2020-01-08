@@ -42,3 +42,14 @@ This will update your `.env` file with something like `JWT_SECRET=foobar`
 
 It is the key that will be used to sign your tokens. How that happens exactly will depend
 on the algorithm that you choose to use.
+
+-------------------------------------------------------------------------------
+
+### Copy the default configuration file
+
+From the root directory of your application, perform the following:
+
+```bash
+mkdir -p config
+cp vendor/tymon/jwt-auth/config/config.php config/jwt.php
+```
